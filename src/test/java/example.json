@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Barry",
+        "last": "Soto"
+      },
+      "location": {
+        "street": {
+          "number": 9066,
+          "name": "Lakeshore Rd"
+        },
+        "city": "Tacoma",
+        "state": "Alabama",
+        "country": "United States",
+        "postcode": 80187,
+        "coordinates": {
+          "latitude": "79.4244",
+          "longitude": "-163.6351"
+        },
+        "timezone": {
+          "offset": "-8:00",
+          "description": "Pacific Time (US & Canada)"
+        }
+      },
+      "email": "barry.soto@example.com",
+      "login": {
+        "uuid": "1d2e6e0c-8888-42ca-8b59-153df638ef20",
+        "username": "greenmeercat175",
+        "password": "qwer1234",
+        "salt": "IHFIlWPb",
+        "md5": "2bf61a567dfd4d975f059d9ad324b57a",
+        "sha1": "921ea8fe4ccc5aff0c128270468346cef63bf481",
+        "sha256": "0695d3b611dcbe8f13f9ac868db6618c5611b06c0a9e5a5bc0e4bbfe54c608f5"
+      },
+      "dob": {
+        "date": "1963-01-30T11:32:23.259Z",
+        "age": 58
+      },
+      "registered": {
+        "date": "2005-09-03T16:42:15.023Z",
+        "age": 16
+      },
+      "phone": "(932)-589-1042",
+      "cell": "(118)-246-6249",
+      "id": {
+        "name": "SSN",
+        "value": "117-15-4862"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/86.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/86.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/86.jpg"
+      },
+      "nat": "US"
+    }
+  ],
+  "info": {
+    "seed": "81ac1aeb58742a0c",
+    "results": 1,
+    "page": 1,
+    "version": "1.3"
+  }
+}
