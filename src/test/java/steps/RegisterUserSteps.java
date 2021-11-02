@@ -76,7 +76,7 @@ public class RegisterUserSteps extends BaseConfig {
                 //Тогда
                 .then()
                 //Код ответа 200 тоесть ОК. Бывают 400ые(вина на стороне клиента) и 500ые(упал сервер)
-                .spec(responseSpecification(200));
+                .spec(responseSpecificationWithMatchesJsonSchema(200, CreateUserResponse.class));
 
         //Конвертация ответа в объект RandomUserGetResponse.class
         CreateUserResponse createUserResponse = mapResponseOnClass(response, CreateUserResponse.class);
